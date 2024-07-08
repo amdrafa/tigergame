@@ -110,7 +110,7 @@ export function VslTiger() {
                     <a href="https://go.perfectpay.com.br/PPU38CNK630">
                         <button
                             className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
-                            QUERO GARANTIR MEU ACESSO
+                            QUERO GARANTIR MEU ACESSOooo
                         </button>
                     </a>
                 </div>
