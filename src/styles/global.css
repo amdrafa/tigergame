@@ -27,7 +27,8 @@
 
 /* Aplica a animação ao background do body */
 body {
-  background-image: url('../assets/background.png');
+  background-color: black;
+  /* background-image: url('../assets/background.png'); */
   background-repeat: no-repeat;
   background-position: center;
   animation: animatedBackground 3s infinite; /* 10 segundos de duração, repetição infinita */
