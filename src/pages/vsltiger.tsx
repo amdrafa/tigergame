@@ -100,7 +100,7 @@ export function VslTiger() {
                 </div> */}
 
                 <div className="text-center text-white font-bold text-2xl mt-2 mb-8 mx-2">
-                    A taxa para criar uma conta e resgatar seu dinheiro é de <span className="text-yellow-300 font-extrabold bg-red-600 p-0.5">R$19,00</span>.
+                    A taxa para criar uma conta e resgatar seu dinheiro é de <span className="text-yellow-300 font-extrabold bg-red-600 p-0.5">R$9,90</span>.
                 </div>
 
 
