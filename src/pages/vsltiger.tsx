@@ -5,12 +5,6 @@ import dayjs from "dayjs";
 import google from "../assets/goog.png";
 import chat from "../assets/chat.png";
 import { Helmet } from "react-helmet";
-import img1 from "../assets/img1.jpeg"
-import img2 from "../assets/img2.jpeg"
-import img3 from "../assets/img3.jpeg"
-import pv1 from "../assets/PV1.jpeg"
-import pv2 from "../assets/pv2.jpeg"
-import pv3 from "../assets/pv3.jpeg"
 
 
 export function VslTiger() {
@@ -81,57 +75,39 @@ export function VslTiger() {
             </div> */}
             <div className="px-2">
                 <Header />
-                {/* <div className="flex justify-center flex-col items-center">
-                    <span className="text-lg font-bold text-white">Você pode ganhar ainda hoje.</span>
-                    <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-64 flex justify-center font-bold text-2xl mb-4">
-                        Potencial: <span className="text-green-600 ml-2"> R$250,00</span>
+                <div className="flex justify-center">
+                    <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-2xl mb-4">
+                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
                     </span>
-                </div> */}
+                </div>
                 {/* <div className="text-center text-white font-bold text-2xl mt-2 mb-8">
                 SAQUE SEU <span className="text-yellow-500 font-extrabold">DINHEIRO</span>, GANHE <span className="bg-green-600 p-0.2">ACESSO AO APP</span> E FAÇA MAIS DE <span className="text-yellow-500 font-extrabold">R$759,00 </span>ATÉ HOJE ÀS <span className="bg-green-600 p-0.2"> {selectedHour} HORAS</span>
             </div> */}
 
                 <div className="text-center text-zinc-200 font-extrabold text-4xl mb-4">
-                    💸APLICATIVO P/ GANHAR <span className="text-yellow-400">+R$400</span> AINDA HOJE 💸
+                    💸VOCÊ TEM💸 <span className="text-yellow-400">R$250</span> PARA SACAR
                 </div>
 
-                <div className="text-center text-lime-400 font-extrabold text-xl mb-4">
-                    ARRASTE PRO LADO.
-                </div>
-
-                <div className="flex overflow-auto space-x-2 mb-6">
-                    <img width={150} src={img1} alt="" />
-                    <img width={150} src={img2} alt="" />
-                    <img width={150} src={img3} alt="" />
-                    <img width={150} src={pv1} alt="" />
-                    <img width={150} src={pv2} alt="" />
-                    <img width={150} src={pv3} alt="" />
-                </div>
-
-                {/* <div className="border-[8px] rounded-lg border-red-950 mb-6">
+                <div className="border-[8px] rounded-lg border-red-950 mb-6">
                     <div dangerouslySetInnerHTML={{ __html: '<div id="vid_668b43a54cfc45000a5bae3f" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_668b43a54cfc45000a5bae3f" src="https://images.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668b43a54cfc45000a5bae3f/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_668b43a54cfc45000a5bae3f" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
                         <script type="text/javascript" id="scr_668b43a54cfc45000a5bae3f"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668b43a54cfc45000a5bae3f/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
-                </div> */}
+                </div>
 
                 {/* <div className="text-center text-white text-2xl mt-2 mb-8">
                     Você precisa pagar a taxa de <span className="text-yellow-500 font-extrabold">criação de usuário</span> para sacar seu dinheiro.
                 </div> */}
 
                 <div className="text-center text-white font-bold text-2xl mt-2 mb-8 mx-2">
-                    De  <span className="text-yellow-300 font-extrabold bg-red-600 p-0.5">R$229,90</span> Por: <span className="text-white font-extrabold bg-green-600 p-0.5">R$00:00</span>.
-                </div>
-
-                <div className="text-center text-white font-bold text-2xl mt-2 mb-8 mx-2">
-                    <span className="text-white font-extrabold p-0.5"><span className="text-white font-extrabold  p-0.5">GRATÚITO</span> APENAS PARA OS <span className="text-white font-extrabold bg-green-600 p-0.5 ">10 PRIMEIROS!</span></span>
+                    A taxa para criar uma conta e resgatar seu dinheiro é de <span className="text-yellow-300 font-extrabold bg-red-600 p-0.5">R$19,00</span>.
                 </div>
 
 
 
 
                 <div className="flex justify-center mb-8 mx-4">
-                    <a href="https://api.whatsapp.com/send?phone=5547992924795&text=QUERO%20ACESSO%20AO%20APP!%20(N%C3%A3o%20mude%20essa%20mensagem).">
+                    <a href="https://go.perfectpay.com.br/PPU38CNK630">
                         <button
                             className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                             QUERO GARANTIR MEU ACESSO
@@ -142,7 +118,7 @@ export function VslTiger() {
 
                 <div className="flex justify-center mb-6">
                     <p className="text-white font-bold px-10 text-center">
-                        <span className="text-green-600">{`${viewers} `}</span>{`pessoas já entraram no aplicativo hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
+                        <span className="text-green-600">{`${viewers} `}</span>{`pessoas já adquiriram o TigetGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
                     </p>
                 </div>
 
