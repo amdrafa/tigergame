@@ -116,25 +116,20 @@ export function VslTiger() {
                 </div>
 
 
-                <div className="flex justify-center mb-6">
+                (<div className="flex justify-center mb-6">
                     <p className="text-white font-bold px-10 text-center">
-                        <span className="text-green-600">{`${viewers} `}</span>{`pessoas já adquiriram o TigetGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
+                        <span className="text-green-600">{`${viewers} `}</span>
+                        {`pessoas já adquiriram o TigerGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
                     </p>
                 </div>
 
-                {/* {isVisible ? (
-                <div className="flex justify-center mb-8">
-                    <button className="bg-green-600 p-4 rounded-2xl text-white font-bold">
-                        QUERO APROVEITAR ESSA CHANCE
-                    </button>
-                </div>
-            ) : (
-                <div className="flex justify-center mb-6">
+                ) : (
+                {/* <div className="flex justify-center mb-6">
                     <p className="text-white font-bold px-10 text-center">
                         <span className="text-green-600">{`${viewers} `}</span>{`pessoas já adquiriram o TigetGPT`}
                     </p>
-                </div>
-            )} */}
+                </div> */}
+                )
 
 
                 <footer>
