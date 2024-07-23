@@ -120,9 +120,9 @@ export function Home() {
 
             <div className="p-4">
                 <div className={`border-[8px] rounded-lg border-red-950 mb-6 ${isFirstModalOpen ? 'hidden' : ''}`}>
-                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_668ae44a91fde7000a84a2dd" style="position:relative;width:100%;padding: 178.05555555555554% 0 0;"> <img id="thumb_668ae44a91fde7000a84a2dd" src="https://images.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668ae44a91fde7000a84a2dd/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_668ae44a91fde7000a84a2dd" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
+                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_669ef2025f2544000b1ce7ac" style="position:relative;width:100%;padding: 178.05555555555554% 0 0;"> <img id="thumb_669ef2025f2544000b1ce7ac" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef2025f2544000b1ce7ac/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_669ef2025f2544000b1ce7ac" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
-                        <script type="text/javascript" id="scr_668ae44a91fde7000a84a2dd"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668ae44a91fde7000a84a2dd/player.js", s.async=!0,document.head.appendChild(s); </script>
+                        <script type="text/javascript" id="scr_669ef2025f2544000b1ce7ac"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef2025f2544000b1ce7ac/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
                 </div>
             </div>

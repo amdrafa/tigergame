@@ -89,9 +89,9 @@ export function VslTiger() {
                 </div>
 
                 <div className="border-[8px] rounded-lg border-red-950 mb-6">
-                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_668b43a54cfc45000a5bae3f" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_668b43a54cfc45000a5bae3f" src="https://images.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668b43a54cfc45000a5bae3f/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_668b43a54cfc45000a5bae3f" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
+                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_669ef8d8cdc831000a4b839d" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_669ef8d8cdc831000a4b839d" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef8d8cdc831000a4b839d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_669ef8d8cdc831000a4b839d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
-                        <script type="text/javascript" id="scr_668b43a54cfc45000a5bae3f"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/5afd22ad-a27d-4246-b6b0-e0c464f01bf0/players/668b43a54cfc45000a5bae3f/player.js", s.async=!0,document.head.appendChild(s); </script>
+                        <script type="text/javascript" id="scr_669ef8d8cdc831000a4b839d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef8d8cdc831000a4b839d/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
                 </div>
 
@@ -100,14 +100,18 @@ export function VslTiger() {
                 </div> */}
 
                 <div className="text-center text-white font-bold text-2xl mt-2 mb-8 mx-2">
-                    A taxa para criar uma conta e resgatar seu dinheiro é de <span className="text-yellow-300 font-extrabold bg-red-600 p-0.5">R$9,90</span>.
+                    Eu vou te passar o TigerGPT <br /> <span className=" font-extrabold bg-green-600 text-white p-0.5">DE GRAÇA</span>.
+                </div>
+
+                <div className="text-center text-white font-bold text-xl mt-2 mb-8 mx-2">
+                    SÓ CHAMAR NO <span className="text-green-600">WHATSAPP</span> PRA RECEBER O ACESSO 👇🏼👇🏼 <br />
                 </div>
 
 
 
 
                 <div className="flex justify-center mb-8 mx-4">
-                    <a href="https://go.perfectpay.com.br/PPU38CNK630">
+                    <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
                         <button
                             className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                             QUERO GARANTIR MEU ACESSO
