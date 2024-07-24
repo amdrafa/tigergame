@@ -111,7 +111,7 @@ export function VslTiger() {
 
 
                 <div className="flex justify-center mb-8 mx-4">
-                    <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
+                    <a href="https://api.whatsapp.com/send?phone=5547992924795&text=Quero%20receber%20acesso%20ao%20aplicativo!">
                         <button
                             className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                             QUERO GARANTIR MEU ACESSO
