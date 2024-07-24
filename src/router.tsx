@@ -6,6 +6,7 @@ import { Creative } from "./pages/creative";
 import { Register } from "./pages/register";
 import { BackRedirect } from "./pages/backredirect";
 import { Bet } from "./pages/bet";
+import { Game } from "./pages/game";
 
 export function Router() {
     return (
@@ -14,6 +15,7 @@ export function Router() {
             <Route path="/secondplay" element={<SecondQuestion />} />
             <Route path="/vsltiger" element={<VslTiger />} />
             <Route path="/game" element={<Creative />} />
+            <Route path="/tiger-game" element={<Game />} />
             <Route path="/register" element={<Register />} />
             <Route path="/backredirect" element={<BackRedirect />} />
             <Route path="/bet" element={<Bet />} />
