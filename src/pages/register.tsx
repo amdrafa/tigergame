@@ -42,8 +42,8 @@ export function Register() {
         <div className="px-6">
             <Header />
             <div className="flex flex-col justify-between items-center">
-                <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-2xl mb-2">
-                    Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-xl mb-2">
+                    Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                 </span>
 
             </div>

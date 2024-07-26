@@ -76,8 +76,8 @@ export function VslTiger() {
             <div className="px-2">
                 <Header />
                 <div className="flex justify-center">
-                    <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-2xl mb-4">
-                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                    <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-xl mb-4">
+                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                     </span>
                 </div>
                 {/* <div className="text-center text-white font-bold text-2xl mt-2 mb-8">
@@ -85,7 +85,7 @@ export function VslTiger() {
             </div> */}
 
                 <div className="text-center text-zinc-200 font-extrabold text-4xl mb-4">
-                    💸VOCÊ TEM💸 <span className="text-yellow-400">R$250</span> PARA SACAR
+                    💸VOCÊ TEM💸 <span className="text-yellow-400">R$4.000,00</span> PARA SACAR
                 </div>
 
                 <div className="border-[8px] rounded-lg border-red-950 mb-6">
@@ -123,8 +123,8 @@ export function VslTiger() {
                 (<div className="flex justify-center mb-6">
                     <p className="text-white font-bold px-10 text-center">
                         <span className="text-green-600">{`${viewers} `}</span>
-                        {`pessoas já adquiriram o TigerGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
-                    </p>
+                        {`pessoas já lucraram com o TigerGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
+                    </p>    
                 </div>
 
                 ) : (

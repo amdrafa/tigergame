@@ -57,7 +57,7 @@ export function Home() {
 
     useEffect(() => {
         /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        const SECONDS_TO_DISPLAY = 18;
+        const SECONDS_TO_DISPLAY = 33;
 
         /* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
         let attempts = 0;
@@ -98,7 +98,7 @@ export function Home() {
             <div className="flex flex-col justify-between items-center">
                 {isVisible ? (
                     <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-2xl mb-4">
-                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                     </span>
                 ) : (
                     <span className="text-white border-2 p-2 rounded-md w-40 flex justify-center font-bold text-xl mb-4">
@@ -120,9 +120,9 @@ export function Home() {
 
             <div className="p-4">
                 <div className={`border-[8px] rounded-lg border-red-950 mb-6 ${isFirstModalOpen ? 'hidden' : ''}`}>
-                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_669ef2025f2544000b1ce7ac" style="position:relative;width:100%;padding: 178.05555555555554% 0 0;"> <img id="thumb_669ef2025f2544000b1ce7ac" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef2025f2544000b1ce7ac/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_669ef2025f2544000b1ce7ac" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
+                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66a30f1f6fb204000b9e92f4" style="position:relative;width:100%;padding: 178.05555555555554% 0 0;"> <img id="thumb_66a30f1f6fb204000b9e92f4" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/66a30f1f6fb204000b9e92f4/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66a30f1f6fb204000b9e92f4" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
-                        <script type="text/javascript" id="scr_669ef2025f2544000b1ce7ac"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef2025f2544000b1ce7ac/player.js", s.async=!0,document.head.appendChild(s); </script>
+                        <script type="text/javascript" id="scr_66a30f1f6fb204000b9e92f4"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/66a30f1f6fb204000b9e92f4/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
                 </div>
             </div>
@@ -160,7 +160,7 @@ export function Home() {
                 shouldCloseOnEsc={false}
                 shouldCloseOnOverlayClick={false}
             >
-                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Parabéns! Você ganhou <span className="text-yellow-400">R$250,00</span></h2>
+                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Parabéns! Você ganhou <span className="text-yellow-400">R$4.000,00</span></h2>
 
                 <div className="text-center text-gray-200 text-lg mb-6">
                     A <span className="text-green-600 font-bold">inteligência artificial</span> do TigetGPT jogou 100% automático pra você.
@@ -194,7 +194,7 @@ export function Home() {
                 <div className="flex justify-center items-center space-x-4">
                     <img width={80} src={logo} alt="Logo Pequena Tiger GPT" />
                     <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-44 flex justify-center font-bold text-xl">
-                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                     </span>
                 </div>
             </Modal>
@@ -207,7 +207,10 @@ export function Home() {
                 shouldCloseOnEsc={true}
                 shouldCloseOnOverlayClick={true}
             >
-                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Você ganhou 1 rodada grátis no <span className="text-yellow-500">TigerGPT</span></h2>
+                <div className="w-full flex justify-center text-6xl mb-4">
+                    🎁
+                </div>
+                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Você ganhou 1 rodada <span className="text-yellow-500">grátis</span> e um <span className="text-yellow-500">bônus</span> de <span className="text-green-600 font-bold">R$113</span> pra jogar</h2>
 
                 <div className="text-center text-gray-200 text-lg mb-6">
                     Clique no <span className="text-green-600 font-bold">botão verde</span> que a inteligência artificial te dará <span className="text-green-600 font-bold">99,98%</span> de assertividade.

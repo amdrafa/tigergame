@@ -51,7 +51,7 @@ export function Game() {
             <HeaderApp />
             <div className="flex flex-col justify-between items-center">
                 <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-xl mb-4">
-                    Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                    Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                 </span>
                 <div className="mb-3">
                     <h2 className="text-white ">Modo: <span className="bg-green-600 font-bold p-1">Normal</span></h2>
@@ -135,7 +135,7 @@ export function Game() {
                 <div className="flex justify-center items-center space-x-4">
                     <img width={80} src={logo} alt="Logo Pequena Tiger GPT" />
                     <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-44 flex justify-center font-bold text-xl">
-                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
+                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                     </span>
                 </div>
             </Modal>
