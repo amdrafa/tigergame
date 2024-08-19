@@ -7,6 +7,9 @@ import { Register } from "./pages/register";
 import { BackRedirect } from "./pages/backredirect";
 import { Bet } from "./pages/bet";
 import { Game } from "./pages/game";
+import { Login } from "./pages/login";
+import { Saque } from "./pages/saque";
+import { HistoricoSaques } from "./pages/historicodesaques";
 
 export function Router() {
     return (
@@ -17,6 +20,9 @@ export function Router() {
             <Route path="/game" element={<Creative />} />
             <Route path="/tiger-game" element={<Game />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/saque" element={<Saque />} />
+            <Route path="/historico" element={<HistoricoSaques />} />
             <Route path="/backredirect" element={<BackRedirect />} />
             <Route path="/bet" element={<Bet />} />
         </Routes>
