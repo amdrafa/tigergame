@@ -32,12 +32,12 @@ export function VslTiger() {
 
     useEffect(() => {
         /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        const SECONDS_TO_DISPLAY = 345;
+        const SECONDS_TO_DISPLAY = 90;
 
         /* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
         let attempts = 0;
         let elsDisplayed = false;
-        const alreadyDisplayedKey = `alreadyElsDisplayedVSL${SECONDS_TO_DISPLAY}`
+        const alreadyDisplayedKey = `alreadyElsDisplayedVSLlll${SECONDS_TO_DISPLAY}`
         const alreadyElsDisplayed = localStorage.getItem(alreadyDisplayedKey);
 
         const showHiddenElements = function () {
@@ -88,10 +88,14 @@ export function VslTiger() {
                     💸VOCÊ TEM💸 <span className="text-yellow-400">R$4.000,00</span> PARA SACAR
                 </div>
 
+                <div className="text-center text-zinc-200 text-xl  mb-4">
+                    ASSISTA ESSE VÍDEO <br /> DE <span className="font-bold text-yellow-400">1 MINUTO</span> PRA ENTENDER
+                </div>
+
                 <div className="border-[8px] rounded-lg border-red-950 mb-6">
-                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_669ef8d8cdc831000a4b839d" style="position:relative;width:100%;padding: 56.25% 0 0;"> <img id="thumb_669ef8d8cdc831000a4b839d" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef8d8cdc831000a4b839d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_669ef8d8cdc831000a4b839d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
+                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66c57711c88bc6000b3c1a0d" style="position:relative;width:100%;padding: 177.77777777777777% 0 0;"> <img id="thumb_66c57711c88bc6000b3c1a0d" src="https://images.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66c57711c88bc6000b3c1a0d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
-                        <script type="text/javascript" id="scr_669ef8d8cdc831000a4b839d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/669ef8d8cdc831000a4b839d/player.js", s.async=!0,document.head.appendChild(s); </script>
+                        <script type="text/javascript" id="scr_66c57711c88bc6000b3c1a0d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
                 </div>
 
@@ -110,14 +114,16 @@ export function VslTiger() {
 
 
 
-                <div className="flex justify-center mb-8 mx-4">
-                    <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
-                        <button
-                            className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
-                            QUERO GARANTIR MEU ACESSO
-                        </button>
-                    </a>
-                </div>
+                {isVisible && (
+                    <div className="flex justify-center mb-8 mx-4">
+                        <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
+                            <button
+                                className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
+                                QUERO GARANTIR MEU ACESSO
+                            </button>
+                        </a>
+                    </div>
+                )}
 
 
                 (<div className="flex justify-center mb-6">
