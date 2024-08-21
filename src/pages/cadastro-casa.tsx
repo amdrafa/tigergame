@@ -5,11 +5,12 @@ import dayjs from "dayjs";
 import google from "../assets/goog.png";
 import chat from "../assets/chat.png";
 import { Helmet } from "react-helmet";
+import cadastro from "../assets/registrar.jpeg"
 
 
-export function VslTiger() {
+export function CadastroCasa() {
 
-    const navigate = useNavigate();
+
     const [selectedHour] = useState(dayjs().add(2.8, 'hour').format('h:mm'))
 
     const [viewers, setViewers] = useState(800);
@@ -85,18 +86,45 @@ export function VslTiger() {
             </div> */}
 
                 <div className="text-center text-zinc-200 font-extrabold text-4xl mb-4">
-                    💸VOCÊ TEM💸 <span className="text-yellow-400">R$4.000,00</span> PARA SACAR
+                    <span className="text-yellow-400">⚠️ÚLTIMA ETAPA⚠️ </span>PARA SACAR SEU <span className="text-green-600">DINHEIRO</span>
                 </div>
 
-                <div className="text-center text-zinc-200 text-xl  mb-4">
-                    ASSISTA ESSE VÍDEO <br /> DE <span className="font-bold text-yellow-400">1 MINUTO</span> PRA ENTENDER
+                <div className="flex flex-col items-left text-zinc-300 text-xl  bg-red-950 p-4 rounded-xl">
+                    <div className="mt-2">
+                        <span className="font-bold text-yellow-400">1º PASSO:</span> Registrar na casa de aposta abaixo
+                    </div>
+                    <div className="mt-2">
+                        <span className="font-bold text-yellow-400">2º PASSO:</span> Depositar R$35,00
+                    </div>
+                    <div className="mt-2">
+                        <span className="font-extrabold text-green-600 ">🟢 LIBERAR ACESSO: </span>Após isso, basta chamar no WhatsApp abaixo para obter seu acesso e sacar seu dinheiro
+                    </div>
+                    <div className="mt-10 text-red-600 font-bold text-lg">
+                        FAÇA O PROCESSO CORRETAMENTE! SÓ CHAME NO WHATSAPP DEPOIS QUE DEPOSITAR OS R$35,00 NA CASA.
+                    </div>
                 </div>
 
-                <div className="rounded-lg  mb-6 px-20 mt-2">
+
+
+
+
+
+
+
+                {/* <div className="rounded-lg  mb-6 px-20 mt-2">
                     <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66c57711c88bc6000b3c1a0d" style="position:relative;width:100%;padding: 177.77777777777777% 0 0;"> <img id="thumb_66c57711c88bc6000b3c1a0d" src="https://images.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66c57711c88bc6000b3c1a0d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
                         <script type="text/javascript" id="scr_66c57711c88bc6000b3c1a0d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
+                </div> */}
+
+
+                <div className="p-4 mb-6">
+                    <iframe
+                        id="plataform"
+                        src={"https://jonbet.cxclick.com/visit/?bta=57073&brand=jonbet"}
+                        className="w-full h-screen rounded-lg"
+                    ></iframe>
                 </div>
 
                 {/* <div className="text-center text-white text-2xl mt-2 mb-8">
@@ -116,12 +144,12 @@ export function VslTiger() {
 
                 {isVisible ? (
                     <div className="flex justify-center mb-8 mx-4">
-                        <div onClick={() => navigate("/cadastrocasa")}>
+                        <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
                             <button
                                 className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                                 QUERO GARANTIR MEU ACESSO
                             </button>
-                        </div>
+                        </a>
                     </div>
                 ) : (
 
@@ -136,20 +164,13 @@ export function VslTiger() {
                 )}
 
 
-                (<div className="flex justify-center mb-6">
+                <div className="flex justify-center mb-6">
                     <p className="text-white font-bold px-10 text-center">
                         <span className="text-green-600">{`${viewers} `}</span>
                         {`pessoas já lucraram com o TigerGPT hoje, dia ${dayjs().format('DD/MM/YYYY')}.`}
                     </p>
                 </div>
 
-                ) : (
-                {/* <div className="flex justify-center mb-6">
-                    <p className="text-white font-bold px-10 text-center">
-                        <span className="text-green-600">{`${viewers} `}</span>{`pessoas já adquiriram o TigetGPT`}
-                    </p>
-                </div> */}
-                )
 
 
                 <footer>

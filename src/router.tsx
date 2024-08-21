@@ -10,6 +10,7 @@ import { Game } from "./pages/game";
 import { Login } from "./pages/login";
 import { Saque } from "./pages/saque";
 import { HistoricoSaques } from "./pages/historicodesaques";
+import { CadastroCasa } from "./pages/cadastro-casa";
 
 export function Router() {
     return (
@@ -17,6 +18,7 @@ export function Router() {
             <Route path="/" element={<Home />} />
             <Route path="/secondplay" element={<SecondQuestion />} />
             <Route path="/vsltiger" element={<VslTiger />} />
+            <Route path="/cadastrocasa" element={<CadastroCasa />} />
             <Route path="/game" element={<Creative />} />
             <Route path="/tiger-game" element={<Game />} />
             <Route path="/register" element={<Register />} />
