@@ -92,7 +92,7 @@ export function VslTiger() {
                     ASSISTA ESSE VÍDEO <br /> DE <span className="font-bold text-yellow-400">1 MINUTO</span> PRA ENTENDER
                 </div>
 
-                <div className="border-[8px] rounded-lg border-red-950 mb-6">
+                <div className="rounded-lg  mb-6 px-20 mt-2">
                     <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66c57711c88bc6000b3c1a0d" style="position:relative;width:100%;padding: 177.77777777777777% 0 0;"> <img id="thumb_66c57711c88bc6000b3c1a0d" src="https://images.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66c57711c88bc6000b3c1a0d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
                         <script type="text/javascript" id="scr_66c57711c88bc6000b3c1a0d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/player.js", s.async=!0,document.head.appendChild(s); </script>
