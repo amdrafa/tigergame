@@ -71,9 +71,9 @@ export function CadastroCasa() {
 
     return (
         <>
-            {/* <div className="text-center bg-yellow-400 font-bold text-gray-700 text-lg px-1">
-                Hoje, {dayjs().format('DD/MM/YYYY')}, restam 2 vagas.
-            </div> */}
+            <div className="text-center bg-yellow-400 font-bold font-bold text-gray-700 text-lg px-1">
+                SE VOCÊ SAIR DESSA PÁGINA NÃO SERÁ POSSÍVEL SACAR O DINHEIRO
+            </div>
             <div className="px-2">
                 <Header />
                 <div className="flex justify-center">
@@ -97,10 +97,7 @@ export function CadastroCasa() {
                         <span className="font-bold text-yellow-400">2º PASSO:</span> Depositar R$35,00
                     </div>
                     <div className="mt-2">
-                        <span className="font-extrabold text-green-600 ">🟢 LIBERAR ACESSO: </span>Após isso, basta chamar no WhatsApp abaixo para obter seu acesso e sacar seu dinheiro
-                    </div>
-                    <div className="mt-10 text-red-600 font-bold text-lg">
-                        FAÇA O PROCESSO CORRETAMENTE! SÓ CHAME NO WHATSAPP DEPOIS QUE DEPOSITAR OS R$35,00 NA CASA.
+                        <span className="font-extrabold text-green-600 ">🟢 COMO RECEBER O ACESSO: </span>Após se registrar na casa abaixo e depositar R$35,00 o acesso do TigerGPT vai chegar no seu <span className="text-yellow-400 font-bold">e-mail</span>.
                     </div>
                 </div>
 
@@ -142,7 +139,7 @@ export function CadastroCasa() {
 
 
 
-                {isVisible ? (
+                {/* {isVisible ? (
                     <div className="flex justify-center mb-8 mx-4">
                         <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Quero%20receber%20acesso%20ao%20aplicativo!">
                             <button
@@ -161,7 +158,7 @@ export function CadastroCasa() {
                             </button>
                         </a>
                     </div>
-                )}
+                )} */}
 
 
                 <div className="flex justify-center mb-6">
