@@ -86,18 +86,30 @@ export function CadastroCasa() {
             </div> */}
 
                 <div className="text-center text-zinc-200 font-extrabold text-4xl mb-4">
-                    <span className="text-yellow-400">⚠️ÚLTIMA ETAPA⚠️ </span>PARA SACAR SEU <span className="text-green-600">DINHEIRO</span>
+                    <span className="text-yellow-400">⚠️ÚLTIMA ETAPA⚠️ </span>PARA RECEBER O <span className="text-yellow-400">APLICATIVO</span>
                 </div>
 
                 <div className="flex flex-col items-left text-zinc-300 text-xl  bg-red-950 p-4 rounded-xl">
                     <div className="mt-2">
-                        <span className="font-bold text-yellow-400">1º PASSO:</span> Registrar na casa de aposta abaixo
+                        <span className="font-bold text-orange-400">1º PASSO:</span> Clique em <span className="text-zinc-800 font-bold rounded-full text-sm bg-[#48FF4F] py-2 px-4">
+                            CADASTRE-SE
+                        </span>
                     </div>
                     <div className="mt-2">
-                        <span className="font-bold text-yellow-400">2º PASSO:</span> Depositar R$35,00
+                        <span className="font-bold text-orange-400">2º PASSO:</span> Preencha seus dados <br />
+                        <div className="text-sm">
+                            NÃO PRECISA PREENCHER O CAMPO "<span className="text-red-600 font-bold">CÓDIGO</span>"
+                        </div>
                     </div>
                     <div className="mt-2">
-                        <span className="font-extrabold text-green-600 ">🟢 COMO RECEBER O ACESSO: </span>Após se registrar na casa abaixo e depositar R$35,00 o acesso do TigerGPT vai chegar no seu <span className="text-yellow-400 font-bold">e-mail</span>.
+                        <span className="font-extrabold flex items-center space-x-2 text-[#48FF4F]" >
+                            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="#48FF4F" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="12" />
+                            </svg>
+                            <span>E PRONTO!</span>
+                        </span>
+                        O seu acesso do TigerGPT vai chegar no seu <span className="text-[#48FF4F] font-bold">e-mail</span>.
+
                     </div>
                 </div>
 
@@ -119,7 +131,7 @@ export function CadastroCasa() {
                 <div className="p-4 mb-6">
                     <iframe
                         id="plataform"
-                        src={"https://jonbet.cxclick.com/visit/?bta=57073&brand=jonbet"}
+                        src={"https://jonbet.cxclick.com/visit/?bta=57073&nci=5344"}
                         className="w-full h-screen rounded-lg"
                     ></iframe>
                 </div>
