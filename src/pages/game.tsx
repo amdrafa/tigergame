@@ -51,7 +51,7 @@ export function Game() {
             <HeaderApp />
             <div className="flex flex-col justify-between items-center">
                 <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-xl mb-4">
-                    Saldo: <span className="text-green-600 ml-2"> R$6.370,41</span>
+                    Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
                 </span>
                 <div className="mb-3">
                     <h2 className="text-white ">Modo: <span className="bg-green-600 font-bold p-1">Normal</span></h2>
@@ -116,7 +116,7 @@ export function Game() {
 
 
                 <div className="text-center text-gray-200 text-lg mb-2">
-                    Pra ativar o modo <span className="text-green-600 font-bold">automático</span>, é necessário que você movimente pelo menos <span className="text-green-600 font-bold">R$100</span> na plataforma.
+                    Pra ativar o modo <span className="text-green-600 font-bold">automático</span>, é necessário que você movimente pelo menos <span className="text-green-600 font-bold">R$35</span> na plataforma.
                 </div>
 
                 <div className="text-center text-gray-200 text-lg mb-8">
