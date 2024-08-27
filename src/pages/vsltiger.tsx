@@ -116,12 +116,12 @@ export function VslTiger() {
 
                 {isVisible ? (
                     <div className="flex justify-center mb-8 mx-4">
-                        <div>
-                            <button onClick={() => navigate('/cadastrocasa')}
+                        <a href="https://go.perfectpay.com.br/PPU38CNK630">
+                            <button
                                 className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                                 QUERO GARANTIR MEU ACESSO
                             </button>
-                        </div>
+                        </a>
                     </div>
                 ) : (
 
