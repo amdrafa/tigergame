@@ -32,7 +32,7 @@ export function VslTiger() {
 
     useEffect(() => {
         /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        const SECONDS_TO_DISPLAY = 85;
+        const SECONDS_TO_DISPLAY = 72;
 
         /* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
         let attempts = 0;
@@ -93,9 +93,9 @@ export function VslTiger() {
                 </div>
 
                 <div className="rounded-lg  mb-6 px-20 mt-2">
-                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66c57711c88bc6000b3c1a0d" style="position:relative;width:100%;padding: 177.77777777777777% 0 0;"> <img id="thumb_66c57711c88bc6000b3c1a0d" src="https://images.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66c57711c88bc6000b3c1a0d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
+                    <div dangerouslySetInnerHTML={{ __html: '<div id="vid_66edb1bcf7a0d8000b837dd7" style="position:relative;width:100%;padding: 177.77777777777777% 0 0;"> <img id="thumb_66edb1bcf7a0d8000b837dd7" src="https://images.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/66edb1bcf7a0d8000b837dd7/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66edb1bcf7a0d8000b837dd7" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div>' }} />
                     <Helmet>
-                        <script type="text/javascript" id="scr_66c57711c88bc6000b3c1a0d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/19e779a9-9bff-4dff-b541-9918122b88f8/players/66c57711c88bc6000b3c1a0d/player.js", s.async=!0,document.head.appendChild(s); </script>
+                        <script type="text/javascript" id="scr_66edb1bcf7a0d8000b837dd7"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/61c81051-1ded-49ce-b73c-81a451eaf774/players/66edb1bcf7a0d8000b837dd7/player.js", s.async=!0,document.head.appendChild(s); </script>
                     </Helmet>
                 </div>
 
