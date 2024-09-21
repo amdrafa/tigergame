@@ -116,7 +116,7 @@ export function VslTiger() {
 
                 {isVisible ? (
                     <div className="flex justify-center mb-8 mx-4">
-                        <a href="https://wa.link/a0ljfo">
+                        <a href="https://typebot.co/tema-whats-app-93u8by9">
                             <button
                                 className="bg-green-600 p-4 rounded-2xl text-white text-xl font-bold">
                                 QUERO GARANTIR MEU ACESSO
