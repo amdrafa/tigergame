@@ -98,7 +98,7 @@ export function Home() {
             <div className="flex flex-col justify-between items-center">
                 {isVisible ? (
                     <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-2xl mb-4">
-                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
+                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
                     </span>
                 ) : (
                     <span className="text-white border-2 p-2 rounded-md w-40 flex justify-center font-bold text-xl mb-4">
@@ -160,7 +160,7 @@ export function Home() {
                 shouldCloseOnEsc={false}
                 shouldCloseOnOverlayClick={false}
             >
-                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Parabéns! Você ganhou <span className="text-yellow-400">R$4.000,00</span></h2>
+                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Parabéns! Você ganhou <span className="text-yellow-400">R$250,00</span></h2>
 
                 <div className="text-center text-gray-200 text-lg mb-6">
                     A <span className="text-green-600 font-bold">inteligência artificial</span> do TigetGPT jogou 100% automático pra você.
@@ -194,7 +194,7 @@ export function Home() {
                 <div className="flex justify-center items-center space-x-4">
                     <img width={80} src={logo} alt="Logo Pequena Tiger GPT" />
                     <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-44 flex justify-center font-bold text-xl">
-                        Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
+                        Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
                     </span>
                 </div>
             </Modal>
@@ -210,9 +210,9 @@ export function Home() {
                 <div className="w-full flex justify-center text-6xl mb-4">
                     🎁
                 </div>
-                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Você ganhou 1 rodada <span className="text-yellow-500">grátis</span> e um <span className="text-yellow-500">bônus</span> de <span className="text-green-600 font-bold">R$113</span> pra jogar</h2>
+                <h2 className="text-gray-100 text-3xl font-bold mb-4 text-center">Você ganhou 1 rodada <span className="text-yellow-500">grátis</span> e um <span className="text-yellow-500">bônus</span> pra jogar</h2>
 
-                <div className="text-center text-gray-200 text-lg mb-6">
+                <div className="text-center text-gray-200 text-2xl mb-6">
                     Clique no <span className="text-green-600 font-bold">botão verde</span> que a inteligência artificial te dará <span className="text-green-600 font-bold">99,98%</span> de assertividade.
                 </div>
 

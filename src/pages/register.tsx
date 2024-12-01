@@ -43,7 +43,7 @@ export function Register() {
             <Header />
             <div className="flex flex-col justify-between items-center">
                 <span className="text-yellow-500 border-yellow-500 border-2 p-2 rounded-md w-52 flex justify-center font-bold text-xl mb-2">
-                    Saldo: <span className="text-green-600 ml-2"> R$4.000,00</span>
+                    Saldo: <span className="text-green-600 ml-2"> R$250,00</span>
                 </span>
 
             </div>
@@ -55,20 +55,20 @@ export function Register() {
 
                 <div className="flex flex-col mb-4">
                     <span className="text-white text-xl mb-1">Nome</span>
-                    <input min={1} className="rounded-md h-8 p-2" />
+                    <input required min={1} className="rounded-md h-8 p-2" />
                 </div>
 
                 <div className="flex flex-col mb-4">
                     <span className="text-white text-xl mb-1">E-mail</span>
-                    <input className="rounded-md h-8 p-2" />
+                    <input required className="rounded-md h-8 p-2" />
                 </div>
 
                 <div className="flex flex-col mb-10">
-                    <span className="text-white text-xl mb-1">Chave Pix</span>
-                    <input className="rounded-md h-8 p-2" />
+                    <span className="text-white text-xl mb-1">Senha</span>
+                    <input required type="password" className="rounded-md h-8 p-2" />
                 </div>
 
-                <button className="p-4 bg-green-600 rounded-2xl mb-4 w-full text-white text-xl font-bold"
+                <button type="submit" className="p-4 bg-green-600 rounded-2xl mb-4 w-full text-white text-xl font-bold"
                     onClick={() => {
                         navigate("/vsltiger");
                     }}
